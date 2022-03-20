@@ -43,5 +43,6 @@ yarn-debug.log*
 
 /public/assets/
 /bin/puma.sh
+/node_modules
 
 Gemfile.lock
