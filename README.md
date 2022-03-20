@@ -35,7 +35,7 @@ Here Rails applications has three models according to the following database sch
 ![erd](public/ERD.png)
 
 There is a Endpoint Controller having All the implementations.
-## Technical Detail
+## Technical Details
 ### API Requests
 
 1. `GET /endpoints` Listed all Endpoints.
