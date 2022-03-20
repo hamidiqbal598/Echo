@@ -32,7 +32,7 @@ Here Rails applications has three models according to the following database sch
 * Endpoint has_one Response. (It can easily achieve with only one model as well but i beleives that response is another object so it must have another class.)
 * User (Used for authentication purpose. As this task has low pirority so i just used authentication_token:string otherwise normally I prefer devise gem for authentication purpose.)
 
-![db_schema](public/ERD.PNG)
+![erd](public/ERD.png)
 
 There is a Endpoint Controller having All the implementations.
 ## Technical Detail
@@ -58,7 +58,7 @@ There is a Endpoint Controller having All the implementations.
    Body: Is in raw body
     ```
    ![api](public/update_endpoint.png)
-4. `GET /endpoints/{/:id}`
+4. `DELETE /endpoints/{/:id}`
    ```
    DELETE: localhost:3000/endpoints/1
    Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Babbel', 'tokens' => '1btoken' }
