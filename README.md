@@ -26,6 +26,23 @@ Solution:
     * View on any API Testing Platform (eg: POSTMAN)
     * Collection Link ( https://www.getpostman.com/collections/000ca496f16531f68737 )
 
+# Run the Rails Application using Docker
+
+host: localhost -> host: database
+
+##### First need to Uncomment 3 lines in database.yml
+##### Which includes host, username, and password.
+##### Then run these commands:
+
+```
+docker compose build
+docker-compose run web rake db:create
+docker-compose run --rm web bundle exec rake db:migrate
+docker-compose run --rm web bundle exec rake db:seed
+docker compose up
+```
+*PS: If you're using MAC then it cause an issue in "apt-get update" cmd in Docker, the solution to this problem is going to "Screen Time" setting and change the settings to "Unrestricted web access". 
+
 ## Overview
 
 Here Rails applications has three models according to the following database scheme.
