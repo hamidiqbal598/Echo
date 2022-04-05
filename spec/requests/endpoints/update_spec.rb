@@ -8,7 +8,7 @@ describe 'It is an API Request named PUT /endpoints' do
     let!(:endpoint) { Endpoint.create(:requested_type=>"endpoints", :requested_verb=>"PUT", :requested_path=>"/update_spec_test", :response_attributes=>{"code"=>201, "headers"=>{}, "body"=>"\"{ \"message\": \"Hello, everyone\" }\""}) }
 
     # create a user before the test scenarios are run
-    let!(:user) { User.create(username: 'Babbel', authentication_token: '1btoken') }
+    let!(:user) { User.create(username: 'Usman', authentication_token: '1btoken') }
 
     scenario 'valid endpoint attributes' do
       raw_body = '{

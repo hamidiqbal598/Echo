@@ -5,7 +5,7 @@ describe 'It is an API Request named POST /endpoints' do
   feature 'POST /endpoints' do
 
     # create a user before the test scenarios are run
-    let!(:user) { User.create(username: 'Babbel', authentication_token: '1btoken') }
+    let!(:user) { User.create(username: 'Hamid', authentication_token: '3btoken') }
 
     scenario 'valid endpoint attributes' do
       raw_body = ' {

@@ -5,8 +5,8 @@
 #
 #   Here we are creating dummy users
     users = User.create([
-                          { username: 'Babbel' , authentication_token: '1btoken' },
-                          { username: 'Aygen' , authentication_token: '2btoken' },
+                          { username: 'Usman' , authentication_token: '1btoken' },
+                          { username: 'Shoaib' , authentication_token: '2btoken' },
                           { username: 'Hamid' , authentication_token: '3btoken' }
                         ])
     endpoints = Endpoint.create([

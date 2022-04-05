@@ -8,14 +8,8 @@ class EndpointsController < ApplicationController
     @endpoints = Endpoint.includes(:response).all
   end
 
-  def show
-  end
-
   def new
     @endpoint = Endpoint.new
-  end
-
-  def edit
   end
 
   def create
@@ -47,7 +41,7 @@ class EndpointsController < ApplicationController
       body = endpoint.first.response.body[1...-1]
       render json: body
     else
-      render json: return_error_formatted_json("Requested page `" + requested_path +"` does not exist"), status: 404
+      render json: return_error_formatted_json("Requested page #{requested_path} does not exist"), status: 404
     end
   end
 
@@ -66,7 +60,7 @@ class EndpointsController < ApplicationController
     begin
       @endpoint = Endpoint.find(params[:id])
     rescue
-      render json: return_error_formatted_json("Requested Endpoint with ID `" + params[:id] +"` does not exist"), status: 404
+      render json: return_error_formatted_json("Requested Endpoint with ID #{params[:id]} does not exist"), status: 404
     end
   end
 

@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe "Endpoints", type: :request do
 
   # create a user before the test scenarios are run
-  let!(:user) { User.create(username: 'Babbel', authentication_token: '1btoken') }
+  let!(:user) { User.create(username: 'Usman', authentication_token: '1btoken') }
 
   #It is a normal request Endpoint
   describe "GET /endpoints" do

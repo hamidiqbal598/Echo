@@ -1,4 +1,4 @@
-# Echo - code challenge for back-end developers
+# Echo
 
 ## Task definition
 
@@ -62,20 +62,9 @@ Proper and up-to-date documentation helps other people contribute to any
 project. Make sure you deliver your project with well-written README and
 annotated code (when it makes sense).
 
-## How to deliver results?
-
-It isn't necessary to deploy your solution anywhere. It's enough to send us a
-link on *a public* repository on GitHub or GitLab. README should include
-instructions on how to run and test the project on a local machine. Ideally, it
-should only require a couple of commands to make the server up and running.
-
-We will have Ruby and Bundler installed on our machines, so there is no need to
-explain them.
-
 ##  Have questions?
 
-In case something isn't clear or you have questions regarding the task, feel
-free to contact us. Email address: <backend-interview@babbel.com>
+In case something isn't clear or you have questions regarding the task, feel free to ask me on my email: hamidiqbal598@gmail.com
 
 ## Technical specification
 
@@ -396,4 +385,4 @@ to propose it in your solution.
 
 ## Version
 
-1.0.1
+1.0.2

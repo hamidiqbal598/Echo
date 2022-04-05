@@ -1,8 +1,9 @@
-# Babbel Assessment
-## Echo - Code challenge for Backend Developer Postion
+# Learning Assessment
+## Echo
+### Project Requirements are in echod.md File
 
 
-The aim is to express my level of skills and knowledge as they are required to deal with everyday tasks when working for Babbel.
+The aim is to express my level of skills and knowledge as they are required to deal with everyday tasks.
 To achieve this purpose, I completed all tasks while keeping in mind the task definition.
 
 Solution:
@@ -58,33 +59,33 @@ There is a Endpoint Controller having All the implementations.
 1. `GET /endpoints` Listed all Endpoints.
    ```
    GET: localhost:3000/endpoints
-   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Babbel', 'tokens' => '1btoken' }
+   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Hamid', 'tokens' => '3btoken' }
     ```
    ![api](public/list_endpoints.png)
 2. `POST /endpoints`
    ```
    POST: localhost:3000/endpoints
-   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Babbel', 'tokens' => '1btoken' }
+   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Hamid', 'tokens' => '3btoken' }
    Body: Is in raw body
     ```
    ![api](public/create_endpoint.png)
 3. `PATCH /endpoints/{/:id}`
    ```
    PATCH: localhost:3000/endpoints/1
-   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Babbel', 'tokens' => '1btoken' }
+   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Hamid', 'tokens' => '3btoken' }
    Body: Is in raw body
     ```
    ![api](public/update_endpoint.png)
 4. `DELETE /endpoints/{/:id}`
    ```
    DELETE: localhost:3000/endpoints/1
-   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Babbel', 'tokens' => '1btoken' }
+   Headers: { 'Content-Type' => 'application/vnd.api+json', 'username' => 'Hamid', 'tokens' => '3btoken' }
     ```
    ![api](public/delete_endpoint.png)
 5. `POST /hello` Whatever created endpoint with Path and Verb
     ```
    POST: localhost:3000/hello
-   Headers: { 'Accept' => 'application/json', 'username' => 'Babbel', 'tokens' => '1btoken' }
+   Headers: { 'Accept' => 'application/json', 'username' => 'Hamid', 'tokens' => '3btoken' }
     ```
    ![api](public/newly_created_endpoint.png)
 
